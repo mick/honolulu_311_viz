@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Viz expirements</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>    
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Honolulu 311</h1>
+    </div>
+    
+    <div id="charts">
+      <div id="hour-chart" class="chart">
+        <div class="title">Time of Day</div>
+      </div>
+      <div id="type-chart" class="chart">
+        <div class="title">report type</div>
+      </div>
+      <div id="map" class="map" >
+        <div class="title">Locations</div>
+      </div> 
+      <div id="date-chart" class="chart">
+        <div class="title">Date</div>
+      </div>
+    </div>
+
+    <aside id="totals"><span id="active">-</span> of <span id="total">-</span> Honolulu 311 reports selected.</aside>
+    
+    <div id="lists">
+      <div id="report-list" class="list"></div>
+    </div>
+
+    <script type="text/javascript" src="crossfilter.min.js"></script>
+    <script type="text/javascript" src="d3.v2.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+  </body>
+</html>

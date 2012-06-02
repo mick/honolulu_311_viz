@@ -1,0 +1,178 @@
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+
+
+body {
+  font-family: "Helvetica Neue";
+  margin: 40px auto;
+  width: 960px;
+  min-height: 2000px;
+}
+
+#body {
+  position: relative;
+}
+
+
+footer {
+  padding: 2em 0 1em 0;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 96px;
+  margin-top: .3em;
+  margin-bottom: 0;
+}
+h1{ 
+  font-weight:normal;
+  font-size:60px;
+  color:#333;
+  font-family:'Kaffeesatz', arial,san-serif;
+}
+
+
+h1 + h2 {
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 28px;
+}
+
+h1, h2 {
+  font-family: "Yanone Kaffeesatz";
+  text-rendering: optimizeLegibility;
+}
+
+#body > p {
+  line-height: 1.5em;
+  width: 640px;
+  text-rendering: optimizeLegibility;
+}
+
+#charts {
+  padding: 10px 0;
+}
+
+.chart {
+  display: inline-block;
+  height: 151px;
+  margin-bottom: 20px;
+}
+.map{ 
+  display: inline-block;
+  height: 230px;
+  margin-bottom: 20px;
+
+}
+
+.reset {
+  padding-left: 1em;
+  font-size: smaller;
+  color: #ccc;
+}
+
+.background.bar {
+  fill: #ccc;
+}
+
+.foreground.bar {
+  fill: steelblue;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.brush rect.extent {
+  fill: steelblue;
+  fill-opacity: .125;
+}
+
+.brush .resize path {
+  fill: #eee;
+  stroke: #666;
+}
+
+#hour-chart {
+  width: 260px;
+}
+#map{ 
+  width:480px;
+}
+
+#type-chart {
+  width: 150px;
+}
+
+#date-chart {
+  width: 920px;
+}
+
+#report-list {
+  min-height: 1024px;
+}
+
+#report-list .date,
+#report-list .day {
+  margin-bottom: .4em;
+}
+
+#report-list .report {
+  line-height: 1.5em;
+  background: #eee;
+  width: 920px;
+  margin-bottom: 1px;
+}
+
+#report-list .time {
+  color: #999;
+}
+
+#report-list .report div {
+  display: inline-block;
+  width: 100px;
+}
+#report-list div.reporttype {
+  width:140px;
+  font-size:12px;
+}
+
+#report-list div.discription {
+  width: 640px;
+  padding: 5px 0px 5px 30px;
+  text-align: right;
+  line-height:16px;
+  font-size:14px;
+
+}
+
+
+
+aside {
+  position: absolute;
+  left: 740px;
+  font-size: smaller;
+  width: 280px;
+}
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#states {
+  fill: #aaa;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+#states path:hover {
+  stroke: white;
+}
