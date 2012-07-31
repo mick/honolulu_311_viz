@@ -126,7 +126,7 @@ d3.csv("citysourced.csv", function(csreports) {
         .group(dates)
         .round(d3.time.day.round)
       .x(d3.time.scale()
-        .domain([new Date(2012, 0, 1), new Date(2012, 6, 1)])
+        .domain([new Date(2012, 1, 1), new Date(2012, 7, 1)])
         .rangeRound([0, 5 * 180]))
         .filter([new Date(2012, 4, 1), new Date(2012, 5, 1)])
 
